@@ -1,0 +1,15 @@
+.Cover {
+  margin: 0;
+  padding: 0;
+}
+
+.Cover-image {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.Cover-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

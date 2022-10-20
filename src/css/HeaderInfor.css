@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+.HeaderInfor {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  bottom: 2vw;
+  padding-left: 40px;
+}
+
+.HeaderInfor-img {
+  width: 20%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.HeaderInfor-img img {
+  width: 100%;
+  object-fit: cover;
+}
+/*-- Sign Styles --*/
+
+.HeaderInfor-name {
+  width: 14vw;
+  font-family: "Vibur", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderInfor-name span {
+  font-size: 2vw;
+  text-align: center;
+  line-height: 1;
+  color: #c6e2ff;
+  animation: neon 0.08s ease-in-out infinite alternate;
+}
+/*-- Animation Keyframes --*/
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
+.HeaderInfor-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  color: aliceblue;
+  /* color: rgb(49, 159, 255); */
+  font-size: 0.6vw;
+  /* width: 430px; */
+}
+
+.HeaderInfor-contact,
+.HeaderInfor-contact a,
+.HeaderInfor-contact i {
+  color: aliceblue;
+}
+
+.HeaderInfor-contact a {
+  text-decoration: none;
+}

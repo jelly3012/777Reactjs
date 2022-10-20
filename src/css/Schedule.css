@@ -1,0 +1,9 @@
+.Schedule {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.Schedule img {
+  width: 100%;
+  object-fit: cover;
+}
