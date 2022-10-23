@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Cover.css";
 
-const cover = require("../images/cover.png");
+const cover = require("../images/cover.jpg");
 
 function Cover() {
   return (

@@ -10,3 +10,12 @@
   font-family: "Vibur", cursive;
   font-weight: 300;
 }
+
+@media screen and (max-width: 718px) {
+  .Sidebar {
+    padding: 0;
+  }
+  .list-group a {
+    font-size: 11px;
+  }
+}

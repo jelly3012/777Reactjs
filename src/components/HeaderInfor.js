@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import "../css/HeaderInfor.css";
 
-const avatar = require("../images/avt.png");
+const avatar = require("../images/avt copy.png");
 
 function HeaderInfor() {
   return (

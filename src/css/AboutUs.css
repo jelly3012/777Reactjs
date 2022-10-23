@@ -1,3 +1,14 @@
 .AboutUs {
   color: aliceblue;
+  font-family: "Vibur", cursive;
+}
+
+.AboutUs h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 718px) {
+  .AboutUs p {
+    font-size: 14px;
+  }
 }

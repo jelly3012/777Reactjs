@@ -9,7 +9,7 @@ html {
 }
 body {
   background-image: url(/src/images/wall.jpg);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #root {

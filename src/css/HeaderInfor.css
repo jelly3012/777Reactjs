@@ -17,6 +17,7 @@
 }
 
 .HeaderInfor-img img {
+  border-radius: 999px;
   width: 100%;
   object-fit: cover;
 }
@@ -59,7 +60,7 @@
   display: flex;
   flex-direction: column;
   text-align: end;
-  color: aliceblue;
+  color: rgb(161, 213, 255);
   /* color: rgb(49, 159, 255); */
   font-size: 0.6vw;
   /* width: 430px; */
@@ -68,9 +69,47 @@
 .HeaderInfor-contact,
 .HeaderInfor-contact a,
 .HeaderInfor-contact i {
-  color: aliceblue;
+  color: rgb(161, 213, 255);
 }
 
 .HeaderInfor-contact a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 718px) {
+  .container-custom {
+    width: 80%;
+  }
+  .HeaderInfor-name {
+    width: 30%;
+  }
+  .HeaderInfor-name span {
+    font-size: 3vw;
+  }
+  .HeaderInfor-contact a,
+  .HeaderInfor-contact-address {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .HeaderInfor-contact {
+    display: none;
+  }
+  .HeaderInfor {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .HeaderInfor-img {
+    width: 30%;
+  }
+  .HeaderInfor-name {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .HeaderInfor-name span {
+    font-size: 5vw;
+  }
 }

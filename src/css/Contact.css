@@ -2,3 +2,53 @@
   font-size: 2rem;
   color: aliceblue;
 }
+
+.Contact-social h3 {
+  border-bottom: 1px rgb(161, 213, 255) solid;
+  font-size: 1.6rem;
+  display: inline-block;
+  color: rgb(161, 213, 255);
+}
+
+.Contact-location h3 {
+  border-bottom: 1px rgb(161, 213, 255) solid;
+  font-size: 1.6rem;
+  display: inline-block;
+  color: rgb(161, 213, 255);
+}
+
+.Contact-location p {
+  font-size: 12px;
+}
+
+.Contact-social-item {
+  line-height: 1rem;
+}
+
+.Contact-social-item a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  line-height: 1.2rem;
+}
+
+.Contact-location-map Iframe {
+  width: 60%;
+  height: 300px;
+}
+
+@media screen and (max-width: 718px) {
+  .Contact h3 {
+    font-size: 1.2rem;
+  }
+  .Contact-social-item a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .Contact-location-map Iframe {
+    width: 100%;
+    height: 200px;
+  }
+}

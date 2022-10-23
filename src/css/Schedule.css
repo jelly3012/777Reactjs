@@ -3,7 +3,25 @@
   color: aliceblue;
 }
 
+.Schedule-h {
+  font-size: 1.6rem;
+  border-bottom: 1px rgb(161, 213, 255) solid;
+  display: inline-block;
+  color: rgb(161, 213, 255);
+}
+
+.ScheduleImg {
+  border: 1px rgb(161, 213, 255) solid;
+  margin-bottom: 20px;
+}
+
 .Schedule img {
-  width: 100%;
+  width: 99%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 414px) {
+  .Schedule-h {
+    font-size: 1rem;
+  }
 }
