@@ -34,10 +34,28 @@
 
 .HeaderInfor-name span {
   font-size: 2vw;
-  text-align: center;
-  line-height: 1;
-  color: #c6e2ff;
-  animation: neon 0.08s ease-in-out infinite alternate;
+  background: linear-gradient(
+    to right,
+    rgb(115, 198, 253) 20%,
+    rgb(72, 106, 255) 40%,
+    rgb(37, 13, 255) 60%,
+    rgb(0, 85, 141) 80%,
+    rgb(65, 170, 240) 100%
+  );
+  background-size: 150%;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 300%;
+  }
 }
 /*-- Animation Keyframes --*/
 
@@ -74,6 +92,15 @@
 
 .HeaderInfor-contact a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .HeaderInfor-name {
+    width: 25%;
+  }
+  .HeaderInfor-contact {
+    font-size: 1vw;
+  }
 }
 
 @media screen and (max-width: 718px) {

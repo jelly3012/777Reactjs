@@ -1,5 +1,8 @@
+@import url("http://fonts.cdnfonts.com/css/latin-modern-math");
+
 * {
   box-sizing: border-box;
+  font-family: "Latin Modern Math", "sans-serif", "Vibur", "cursive";
 }
 
 html {

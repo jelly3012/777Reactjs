@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/latin-modern-math");
+
 .list-group {
   background-image: url(/src/images/wall.jpg);
   text-transform: uppercase;
@@ -7,7 +9,7 @@
   background-color: rgba(255, 255, 255, 0);
   font-size: 1vw;
   color: rgb(161, 213, 255);
-  font-family: "Vibur", cursive;
+  font-family: "Latin Modern Math", "sans-serif", "Vibur", "cursive";
   font-weight: 300;
 }
 

@@ -15,8 +15,8 @@ function Contact() {
         </div>
 
         <div className="Contact-social-item">
-          <a href="" target="_blank">
-            <i className="fa-solid fa-envelope"></i> Send us an email
+          <a href="mailto:contact@777poker.vn">
+            <i className="fa-solid fa-envelope"></i> contact@777poker.vn
           </a>
         </div>
 

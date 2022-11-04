@@ -1,8 +1,14 @@
 .container-custom {
-  width: 50%;
+  width: 70%;
 }
 
 @media screen and (max-width: 718px) {
+  .container-custom {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
   .container-custom {
     width: 80%;
   }

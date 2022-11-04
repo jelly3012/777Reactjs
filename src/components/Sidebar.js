@@ -16,6 +16,9 @@ function Sidebar() {
         <Link to="/tin-tuc" className="list-group-item list-group-item-action">
           TIN TỨC
         </Link>
+        <Link to="/champion" className="list-group-item list-group-item-action">
+          Champions
+        </Link>
         <Link
           to="/gioi-thieu"
           className="list-group-item list-group-item-action"

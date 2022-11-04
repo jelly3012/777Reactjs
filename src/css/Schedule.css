@@ -5,7 +5,7 @@
 
 .Schedule-h {
   font-size: 1.6rem;
-  border-bottom: 1px rgb(161, 213, 255) solid;
+  /* border-bottom: 1px rgb(161, 213, 255) solid; */
   display: inline-block;
   color: rgb(161, 213, 255);
 }
@@ -16,12 +16,24 @@
 }
 
 .Schedule img {
-  width: 99%;
+  width: 100%;
   object-fit: cover;
+}
+
+.fl-on-fb {
+  font-size: 26px;
+}
+
+.fl-on-fb a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 414px) {
   .Schedule-h {
     font-size: 1rem;
+  }
+  .fl-on-fb a {
+    font-size: 16px;
   }
 }

@@ -1,0 +1,11 @@
+.Champion {
+  flex-wrap: wrap;
+}
+
+.Champion h5 {
+  color: rgb(161, 213, 255);
+}
+
+.Champion img {
+  margin-bottom: 20px;
+}

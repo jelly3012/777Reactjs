@@ -4,21 +4,21 @@
 }
 
 .Contact-social h3 {
-  border-bottom: 1px rgb(161, 213, 255) solid;
-  font-size: 1.6rem;
+  /* border-bottom: 1px rgb(161, 213, 255) solid; */
+  font-size: 1.4rem;
   display: inline-block;
   color: rgb(161, 213, 255);
 }
 
 .Contact-location h3 {
-  border-bottom: 1px rgb(161, 213, 255) solid;
-  font-size: 1.6rem;
+  /* border-bottom: 1px rgb(161, 213, 255) solid; */
+  font-size: 1.4rem;
   display: inline-block;
   color: rgb(161, 213, 255);
 }
 
 .Contact-location p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .Contact-social-item {
@@ -26,7 +26,7 @@
 }
 
 .Contact-social-item a {
-  font-size: 1.2rem;
+  font-size: 16px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   line-height: 1.2rem;
